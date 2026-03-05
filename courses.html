@@ -3,65 +3,64 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Courses</title>
+    <title>Courses | CodeBase</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
   </head>
   <body>
     <nav>
-      <a class="h1" href="index.html"> <samp>C</samp>ode<samp>B</samp>ase</a>
-      <div class="maun">
+      <a class="logo" href="index.html"><span>C</span>ode<span>B</span>ase</a>
+      <div class="main-nav">
         <a href="#course-card-container">Courses</a>
         <a href="index.html#about-section">About</a>
         <a href="index.html#Contact-section">Contact</a>
       </div>
-      <div class="bot-regester">
-        <a href="regester.html" class="regester">Regester</a>
+      <div class="nav-right">
+        <a href="register.html" class="register-btn">Register</a>
       </div>
     </nav>
-    <section id="courses-section">
-      <br />
-      <br />
-      <h2 class="section-title">Courses</h2>
 
-      <div id="course-card-container">
+    <section id="courses-page-section">
+      <h2 class="section-title">All Courses</h2>
+
+      <div class="courses-grid-container" id="course-card-container">
+        
         <div class="courses-card">
-          <img src="image/Frontend.png" />
-
+          <div class="card-img-wrapper">
+            <img src="image/Frontend.png" alt="Frontend" />
+          </div>
           <h3>Frontend Development</h3>
           <p>Master HTML, CSS, and React.</p>
-          <br />
           <a href="#" class="btn-sm">Learn More</a>
         </div>
 
         <div class="courses-card">
-          <img src="image/Security.png" alt="" />
+          <div class="card-img-wrapper">
+            <img src="image/Security.png" alt="Cyber Security" />
+          </div>
           <h3>Cyber Security</h3>
           <p>Ethical Hacking and Networks.</p>
-          <br />
-
           <a href="#" class="btn-sm">Learn More</a>
         </div>
 
         <div class="courses-card">
-          <img src="image/Backend.png" alt="" />
-
+          <div class="card-img-wrapper">
+            <img src="image/Backend.png" alt="Backend" />
+          </div>
           <h3>Backend Engineering</h3>
           <p>Node.js, Databases and APIs.</p>
-          <br />
-
           <a href="#" class="btn-sm">Learn More</a>
         </div>
-      </div>
-      <div class="course-card-container">
-        <div class="courses-card">
-          <img src="image/Data.png" alt="" />
 
+        <div class="courses-card">
+          <div class="card-img-wrapper">
+            <img src="image/Data.png" alt="Data Science" />
+          </div>
           <h3>Data Science</h3>
           <p>Python and Machine Learning.</p>
-          <br />
-
           <a href="#" class="btn-sm">Learn More</a>
         </div>
+
       </div>
     </section>
   </body>
